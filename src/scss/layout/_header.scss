@@ -1,0 +1,44 @@
+.color-amarillo{
+    background-color: $amarillo;
+    height: 15rem;
+    margin: -2rem 0;
+    p{
+        color: $blanco;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.header{
+    .borde{
+        border: 1px solid #B3035B;
+        margin: -10rem 10rem auto;
+        border-radius: 50%;
+        padding: 1rem;
+        .contenedor-imagen{
+            display: flex;
+            justify-content: center;
+            .imagen{
+                background-image: url(../../../build/img/definicion-de-persona-min.jpg);
+                width: 14rem;
+                height: 14rem;
+                border-radius: 50%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .nombre{
+        text-align: center;
+        font-size: 2.2rem;
+        margin: 0;
+        font-weight: $bold;
+    }
+    .correo{
+        text-align: center;
+        margin: 0;
+        font-size: 1.8rem;
+        color: $grisOscuro;
+    }
+}
